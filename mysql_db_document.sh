@@ -9,7 +9,7 @@ CSS_FILE_NAME="style.css"
 ## db
 if [ "$1" = "" ]; then
         DB_NAME=test_fuel
-elseorn
+else
         DB_NAME=$1
 fi
 OUTPUT=$DB_NAME.html
